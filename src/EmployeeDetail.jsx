@@ -66,7 +66,7 @@ function EmployeeDetail() {
                       src={`http://localhost:8081/images/` + employee.image}
                       alt="Avatar"
                       className="img-fluid my-5"
-                      style={{ width: '150px' }}
+                      style={{ width: '150px', borderRadius: '5px' }}
                     />
                     <h5>{employee.name}</h5>
                     <p>{employee.address}</p>

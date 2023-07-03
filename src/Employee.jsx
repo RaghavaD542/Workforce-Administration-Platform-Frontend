@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 function Employee() {
   const [data, setData] = useState([]);
-
   useEffect(() => {
     axios
       .get('http://localhost:8081/getEmployee')

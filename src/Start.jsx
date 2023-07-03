@@ -11,7 +11,10 @@ function Start() {
           <div className="col-lg-6 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up">Workforce Administration Platform</h1>
             <div>
-              <h5 data-aos="fade-up">Login as</h5>
+              <h5 data-aos="fade-up">
+                An efficient platform for assigning work to employees and
+                effectively managing their tasks and performance.
+              </h5>
             </div>
             <div data-aos="fade-up" data-aos-delay="600">
               <div className="text-center text-lg-start">
@@ -19,7 +22,7 @@ function Start() {
                   className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"
                   onClick={(e) => navigate('/employeeLogin')}
                 >
-                  Employee
+                  Login as an Employee
                 </button>
               </div>
               <div className="text-center text-lg-start">
@@ -27,7 +30,7 @@ function Start() {
                   className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"
                   onClick={(e) => navigate('/login')}
                 >
-                  Admin
+                  Login as an Admin
                 </button>
               </div>
             </div>
@@ -37,7 +40,7 @@ function Start() {
             data-aos="zoom-out"
             data-aos-delay="200"
           >
-            <img src="hero-img.svg" className="img-fluid" alt="" />
+            <img src="work2.svg" className="img-fluid" alt="" />
           </div>
         </div>
       </div>
