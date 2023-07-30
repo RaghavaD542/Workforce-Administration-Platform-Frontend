@@ -50,6 +50,7 @@ function EmployeeDetail() {
         </ul>
       </div>
       <section className="context">
+        <h1>Work Administration Platform</h1>
         <div className="container py-5 h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col col-lg-6 mb-4 mb-lg-0">

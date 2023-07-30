@@ -69,11 +69,11 @@ function Dashboard() {
               </li>
               <li>
                 <Link
-                  to="profile"
+                  to="tasks"
                   className="nav-link px-0 align-middle text-white"
                 >
                   <i className="fs-4 bi-person"></i>{' '}
-                  <span className="ms-1 d-none d-sm-inline">Profile</span>
+                  <span className="ms-1 d-none d-sm-inline">Manage Tasks</span>
                 </Link>
               </li>
               <li onClick={handleLogout}>
